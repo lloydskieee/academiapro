@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&family=Ubuntu&display=swap');
+
+* {
+    margin-top: 50px;
+    max-width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    /*setbackgroundcolorwith75%opacity*/padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6433;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #d81b60;
+}
+
+/* style the footer */
+footer {
+    background-color: #191919; /* use a brighter pink color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #fff7e6; /* use a brighter yellow color */
+  }
+  
+  

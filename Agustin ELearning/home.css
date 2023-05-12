@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&family=Ubuntu&display=swap');
+
+/* set default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* set global styles */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+header {
+  background-color: none;
+  color: #333;
+  padding: 20px;
+  display: flex; /* use flexbox to align items horizontally */
+  align-items: center; /* align items vertically in the center */
+}
+
+header img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* style the navigation */
+nav {
+  background-color: #ffe9e2; /* use a brighter yellow color */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;  
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  border-radius: 10px;
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ff6433; /* use a brighter pink color */
+  color: #fff;
+}
+
+/* style the main content */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+section a {
+  color: #333;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+section a:hover {
+  color: #ff6433; /*useabrighterpinkcolor*/
+  background-color: #ffe9e2;
+  border-radius: 10px;
+}
+
+/* style the footer */
+footer {
+  background-color: #191919; /* use a brighter pink color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff7e6; /* use a brighter yellow color */
+}
+
